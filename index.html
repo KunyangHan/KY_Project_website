@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yunchao Wei's homepage</title>
+    <!-- Custom Theme files -->
+    <link rel="icon" href="./images/BJTU_LOGO3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <script>
+        const cof = 880 / 1792;
+
+        adaptiveHeight = function() {
+            const width = window.innerWidth;
+            const img = document.getElementById('cover');
+
+            img.style.minHeight = (cof * width).toString() + "px";
+        };
+
+        // adaptiveHeight();
+        // console.log("add resize");
+        window.addEventListener("load", function () {
+            adaptiveHeight();
+        })
+        window.addEventListener("resize", function () {
+            adaptiveHeight();
+        })
+    </script>
+    <!-- //Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- //js -->
+    <!--web-fonts-->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
+          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800' rel='stylesheet'
+          type='text/css'> -->
+    <link rel="text/css" href="./css/RobotoCondensed400300300italic400italic700700italic.css">
+    <link rel="text/css" href="./css/Dosis400200300500600700800.css">
+    <!--//web-fonts-->
+    <!--circle-chart-->
+    <script src="js/jquery.circlechart.js"></script>
+    <!--circle-chart-->
+</head>
+<body>
+
+<div class="">
+<!--header-->
+    <!--header-->
+    <div class="header header-contents">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header navbar-left">
+                    <h1><a href="index.html"><img style="width: 30rem" src="images/BJTU-LOGO2.png"/></a></h1>
+                </div>
+                <!--navigation-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="header-right">
+                    <div class="top-nav-text">
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="publication.html" class="scroll">Publications</a></li>
+                            <li><a href="people.html" class="scroll">Members</a></li>
+                            <li><a href="seminar.html" class="scroll">Seminar</a></li>
+                            <li><a href="opening.html" class="scroll">Join Us</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div><!--//navigation-->
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="banner background cover" id="cover">
+        <div class="container">
+            <!-- <div class="banner-text">
+                    <div  id="top" class="callbacks_container">
+                        <ul class="rslides" id="slider3">
+                            <li>
+                                <div class="banner-text-info" >
+                                    <h2>Welcome to Wei's Group</h2>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div> -->
+        </div>
+    </div>
+
+    <!-- <div class="album-li-pic banner">
+        <img src="./images/BJTU_0.jpg" alt="">
+    </div> -->
+
+    <script>
+        // const cof = 880 / 1792;
+        const width = window.innerWidth;
+        const img = document.getElementById('cover');
+
+        img.style.minHeight = (cof * width).toString() + "px";
+        img.style.background = "url(./images/BJTU_1.jpg) no-repeat center 0px";
+        img.style.backgroundSize = "cover";
+    </script>
+
+
+    <!--Main content-->
+    <div class="team" id="team">
+        <div class="team-info left-part">
+
+            <div class="container-left">
+            <div class="center-row">
+                <div class="team-img">
+                    <img src="images/people/wyc.jpg" alt="" style="width: 100%">
+                    <!-- <h4>Yunchao Wei</h4> -->
+                    <!-- <p>Professor</p> -->
+                    <br>
+                    <h3 style="text-align: center; font-size: 16pt; padding-top: 1ch;">魏云超</h3>
+                </div>
+                <br>
+                
+                <div class="clearfix"></div>
+            </div>
+            </div>
+
+            <div class="container-left">
+                <h3 class="side-title">PlaceHold-Title</h4>
+                <div class="center-row">
+                    <ul>
+                        <li>
+                            PlaceHold - Content1
+                        </li>
+                        <li>
+                            PlaceHold - Content2
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="team-info right-part">
+            <div class="container-right">
+                <h3 class="title">项目简介</h3>
+
+                <div class="center-row" style="font-size: 16px;">
+
+                    <p>
+                        尽管近年来深度学习在很多单项任务上取得了相当或超过人类水平的成绩，
+                        这些深度学习模型都是为固定的任务所设计，无法动态地根据环境而更新。
+                        这意味着每当有来自新的分布的数据输入的时候，此类模型都需要同时在整个历史数据上重新进行训练。
+                        显然，在持续变化的现实情境中，进行这种数量级的训练是不现实的。
+                    </p>
+                    <p>
+                        如果在加入来自新分布的数据时不在旧数据上做上述的重新训练，
+                        那么这些针对单一任务的模型很可能会在最近输入的数据上发生过拟合。
+                        这种现象被称为灾难性遗忘 (catastrophic forgetting)。如果数据本身就存在分布漂移，
+                        同样也会发生灾难性遗忘。事实上，灾难性遗忘是深度学习模型所面临的一个更基本的问题的结果：
+                        “stability-plasticity” dilemma。此处 plasticity 指的是模型融合新的知识的能力，
+                        而 stability 即为模型在学习新知识的同时保持就知识的能力。
+                    </p>
+                    <p>
+                        连续学习 (Continual Learning or Lifelong Learning)，
+                        即是一个模型在一个连续序列不同任务上学习的能力。该序列中的新任务通常与旧任务相关联。
+                        连续学习旨在防止模型的灾难性遗忘，能够在有效学习新任务的同时维持在历史任务上的表现。
+                        连续学习是一个模型适应快速变化的现实情景的关键，对于实现真正的人工智能十分重要。
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="container-right">
+                <h3 class="title">新闻</h3>
+
+                <div class="center-row" style="font-size: 16px;">
+
+                    <ul class="news-list">
+                        <li>
+                            <span>
+                                新闻标题
+                            </span><span>
+                                2022-0-0
+                            </span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="container-right">
+                <h3 class="title">课题组</h3>
+
+                <div class="center-row" style="font-size: 16px;">
+
+                    <ul>
+                        <li>
+                            课题组1：
+                        </li>
+                        <li>
+                            课题组2：
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div class="container-right">
+                <h3 class="title">Template-1</h3>
+
+                <div class="center-row" style="font-size: 16px;">
+
+                    <p>
+                        Paragraph 1
+                    </p>
+                    <p>
+                        Paragraph 2
+                    </p>
+
+                    <ul id="interests">
+                        <li>
+                            list 1
+                        </li>
+                        <li>
+                            list 2
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+            <!-- news -->
+            <div class="container-right">
+                <h3 class="title">Template-2</h3>
+                <div class="history-tl-container">
+                    <ul class="tl">
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+
+                            <div class="item-title">[ Title1 ]</div>
+                            <div class="item-detail"> 
+                                Content1
+                            </div>
+                        </li>
+                        <li class="tl-item" ng-repeat="item in retailer_history">
+
+                            <div class="item-title">[ Title2 ]</div>
+                            <div class="item-detail"> 
+                                Content2
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="container-right">
+                <h3 class="title">Template-3</h3>
+
+                <div class="center-row" style="font-size: 16px;">
+
+                    <ul>
+                        <li>
+                            List 1
+                        </li>
+                        <li>
+                            List 1
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--//map-->
+    <!--footer-->
+    <div class="footer header-contents">
+        <div class="container">
+            <div class="col-md-5 col-md-offset-2">
+                <p>Copyright &copy; 2021.Company name All rights reserved. </p>
+            </div>
+            <div class="col-md-3">
+                <script type="text/javascript"
+                        src="//rf.revolvermaps.com/0/0/4.js?i=2hlmeh3dic1&amp;m=0&amp;h=64&amp;c=ff0000&amp;r=0"
+                        async="async"></script>
+            </div>
+        </div>
+        <!--//footer-->
+        <!--banner Slider starts Here-->
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 3
+                $("#slider3").responsiveSlides({
+                    auto: true,
+                    pager: true,
+                    nav: false,
+                    speed: 500,
+                    namespace: "callbacks",
+                    before: function () {
+                        $('.events').append("<li>before event fired.</li>");
+                    },
+                    after: function () {
+                        $('.events').append("<li>after event fired.</li>");
+                    }
+                });
+
+            });
+        </script>
+        <!--//End-slider-script-->
+        <!-- start-smooth-scrolling-->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <!--//smooth-scrolling-of-move-up-->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/bootstrap.js"></script>
+    </div>
+</div>
+</body>
+</html>
