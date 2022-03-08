@@ -1809,6 +1809,10 @@ h3.side-title {
     padding-left: 10px;
 }
 
+.img-red-filter {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
 /* 
 .album-li-pic{
 
