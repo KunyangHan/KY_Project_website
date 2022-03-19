@@ -1800,6 +1800,10 @@ h3.side-title {
     margin-top: 3px;
 }
 
+.contents p {
+    text-indent: 2em;
+}
+
 .contents .news-btn span:nth-child(2) {
     float: right;
 }
@@ -1811,6 +1815,14 @@ h3.side-title {
 
 .img-red-filter {
     filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.groupMember {
+    font-size: 14pt;
+}
+
+.groupMember ul{
+    margin-left: 3em;
 }
 
 /* 
