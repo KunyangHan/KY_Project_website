@@ -288,12 +288,17 @@ nav.navbar.navbar-default {
     margin-top: 0em;
 }
 .banner-text {
-    padding: 23em 0;
+    padding: 17em 0;
     text-align: center;
 }
 .banner-text h2,.banner-text h3{
     font-size: 3.6em;
     color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 4.1em;
+    color: #FFF;
 }
 
 .banner-text-info h2{
